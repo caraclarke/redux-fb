@@ -1,6 +1,10 @@
 - store
+  - rather than holding state in component state
+  - state is held in redux store
 - action
+  - action creators
 - reducer
+  - root reducer
 - integrate store
 - reducer and dispatching actions
 - accessing dispatch and state with redux
