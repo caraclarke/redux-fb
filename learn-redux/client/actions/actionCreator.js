@@ -1,9 +1,11 @@
+// actions are just objects with type & necessary information
+
 // increment (likes on photo)
 export function increment(index) {
   return {
     type: 'INCREMENT_LIKES',
     index
-  }; // actions are just objects with type & necessary information
+  };
 }
 
 // add comment

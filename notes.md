@@ -18,3 +18,11 @@
 - accessing dispatch and state with redux
 - display/connect redux state to components
 - update state with reducers
+
+- how it works
+  - dispatch action
+  - reducer will be listening for action and then dispatch that action
+  - only components can be hot reloaded
+  - **every time that you dispatch an action, every reducer will run**
+    - whether it acts on the action or not is up to reducer/you
+    - in reducer tell it if its interested in action, then do something
