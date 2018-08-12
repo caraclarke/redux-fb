@@ -1,0 +1,8 @@
+- store
+- action
+- reducer
+- integrate store
+- reducer and dispatching actions
+- accessing dispatch and state with redux
+- display/connect redux state to components
+- update state with reducers
