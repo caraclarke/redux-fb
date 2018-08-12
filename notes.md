@@ -8,7 +8,7 @@
     - that action has the type of action
     - it has the payload of info (which photo got liked, comment got deleted)
     - information about what happened
-  - action creators
+  - action creators: returned object is the action, function is creator that dispatches it
 - reducer
   - once an action is acted upon, how do I update the data
   - root reducer
