@@ -10,6 +10,7 @@
     - information about what happened
   - action creators: returned object is the action, function is creator that dispatches it
 - reducer
+  - updates the actual state -> actions dont update state
   - once an action is acted upon, how do I update the data
   - root reducer
 - integrate store
