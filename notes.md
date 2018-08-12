@@ -1,9 +1,16 @@
 - store
   - rather than holding state in component state
   - state is held in redux store
+  - empty object where we'll put all our information
 - action
+  - something that happens in your application (loads, clicks)
+  - whenever that happens it dispatches an action
+    - that action has the type of action
+    - it has the payload of info (which photo got liked, comment got deleted)
+    - information about what happened
   - action creators
 - reducer
+  - once an action is acted upon, how do I update the data
   - root reducer
 - integrate store
 - reducer and dispatching actions
