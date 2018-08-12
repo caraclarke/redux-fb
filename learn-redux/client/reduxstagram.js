@@ -25,6 +25,6 @@ const router = (
 
 // takes JSX and mounting point
 render(
-  <Main />,
+  router,
   document.getElementById('root')
 );
